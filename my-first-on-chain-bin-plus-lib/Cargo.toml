@@ -1,0 +1,11 @@
+[package]
+name = "my-first-on-chain-bin-plus-lib"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+solana-program = "*"
+
+[lib]
+crate-type = ["cdylib", "lib"]
