@@ -1,6 +1,10 @@
 use solana_program::{
-    account_info::AccountInfo, entrypoint, entrypoint::ProgramResult,
-    example_mocks::solana_sdk::account, msg, pubkey::Pubkey, stake_history::Epoch,
+    account_info::AccountInfo, 
+    entrypoint, 
+    entrypoint::ProgramResult,
+    msg, 
+    pubkey::Pubkey,
+    stake_history::Epoch,
 };
 use std::str;
 
